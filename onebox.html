@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container {
+    
+    width:70%; height:100%;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#three-box-layout {
+    display:flex;
+    display:-ms-flex; 
+    display:-webkit-flexbox; 
+    display:-moz-flex; 
+    height:100%;
+    -ms-flex-direction:column;
+    -webkit-flex-direction:column
+}
+
+.shuffle-box {
+
+}
+#box-a {
+
+ -ms-flex:3;
+    -webkit-flex:3;
+    -moz-flex:3;
+    flex:3;
+
+    
+    margin-right:30%;
+    padding-top: 2%;
+        font-family: 'Antic Didone', serif;
+    font-weight: 400;
+    font-size: 96px;
+    
+    margin: 0 0 1rem;
+    line-height: 1.2;
+    color: white;
+}
+#box-b {
+ -ms-flex-order:1; -webkit-flex-order:1;
+    margin-right:30%;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+   
+}
+#three-box-layout #box-c {
+    -ms-flex:3;
+    -webkit-flex:3;
+    -moz-flex:3;
+    flex:3;
+    color: white;
+    font-size: 30px;
+     
+
+    margin-left:90%; float:right;
+    
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<div id="container">
+    <div id="three-box-layout">
+        <div id="box-a" class="shuffle-box">
+            
+             <div id="box-b"><span>Namaste 🙏 </span></div>
+        </div>
+       <div id="box-a" class="shuffle-box">
+        <div style="height:425px;">When got middle <br>finger from society</div> 
+        </div>
+        <div id="box-c">>>></div>
+    </div>    
+</div>
+
+
+</body>
+</html>
